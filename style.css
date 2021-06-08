@@ -1,0 +1,95 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    margin: 0px 0px 0px 0px;
+}
+body {
+    background: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.result {
+    border:5px solid rgb(0, 252, 155);
+    border-radius: 10px;
+    background: rgba(255, 0, 76, 0.671) ;
+    display: flex;
+    min-width: 650px;
+    color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+}
+
+.history {
+    border: 5px solid rgb(255, 0, 76);
+    border-radius: 5px;
+    background: rgba(0, 252, 155, 0.603);
+    display: flex;
+    min-width: 650px;
+    flex-direction: column;
+    align-items: center;
+
+}
+.chance {
+    background: rgb(0, 255, 166);
+    display: flex;
+    width: 103%;
+    color: rgb(255, 0, 76);
+    font-size: 22px;
+    text-shadow: 1px 1px 1px rgb(45, 0, 63);
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.label {
+    background: linear-gradient(90deg,rgb(255, 0, 106),rgb(0, 255, 179));
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(6, 0, 65);
+    font-size: 20px;
+}
+
+input {
+    background-image: linear-gradient(90deg,rgb(255, 0, 106),rgb(0, 255, 179));
+    border-radius: 20px;
+    text-align: center;
+    color: blanchedalmond;
+    font-weight: bolder ;
+    height: 50px;
+    width: 500px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(228, 138, 255);
+    text-shadow: 1px 2px 3px rgb(255, 0, 51),-1px 2px 3px rgb(255, 0, 51);
+}
